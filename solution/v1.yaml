@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mydeployment
+  annotations:
+    submitted-by:nahom-amare-ugr-7099-13
   labels:
     app: mywebapp
     tier: frontend
